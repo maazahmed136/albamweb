@@ -1,0 +1,86 @@
+@media screen and (min-width:320px) and (max-width:570px) {
+
+    .container{
+        display: none;
+    }
+    .main_two {
+        flex-direction: column;
+        
+    }
+    .one p{
+        width: unset;
+        margin: unset;
+    }
+    .main{
+        flex-direction: column;
+        padding: unset;
+    }
+    .main_three{
+        flex-direction: column;
+        margin: unset;
+    }
+    .photo2{
+        flex-direction: column;
+        padding: unset;
+        margin: auto;
+        justify-content: unset;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .main_three{
+        flex-direction: column;
+    }
+    .container1{
+        padding: 20px;
+    }
+    .myimage{
+        margin: auto;
+    }
+    
+}
+
+
+@media screen and (min-width:571px) and (max-width:720px) {
+
+    .container{
+        display: none;
+    }
+    .main_two {
+        flex-wrap: wrap;
+        
+        
+    }
+    .one p{
+        width: unset;
+        margin: unset;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    .main_three{
+        flex-wrap: wrap;
+        margin: unset;
+
+    }
+    .photo2{
+        flex-wrap: wrap;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .main_three{
+        flex-wrap: wrap;
+    }
+    .container1{
+        padding: 20px;
+    }
+    .myimage{ 
+        width: unset;
+    }
+    .myimage p{
+        width: unset;
+        
+    }
+    
+}
